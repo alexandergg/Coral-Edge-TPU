@@ -1,7 +1,7 @@
 Coral Dev Board - Edge TPU
 ========================
 
-This Readme is your guide to get started if you have your Coal Dev Board booting with Mendel image. The setup requires flashing the `Mendel Linux system` image to the board and then accessing the board's terminal. Once you have terminal access, you can begin running `TensorFlow Lite models`, in our case, we have helmet detection tflite model to realize inferences processes and get detections of helmet throw an image.
+This Readme is your guide to get started if you have your Coal Dev Board booting with Mendel image. The setup requires flashing the `Mendel Linux system` image to the board and then accessing the board's terminal. Once you have terminal access, you can begin running `TensorFlow Lite models`, tflite model to realize inferences processes and get detections throw an image.
 
 In that case, you have installed Mendel Linux System in your Coral Dev Board, so we can start to explain the configuration and the structure of the project. If you want to learn more about the Dev Board hardware, see the [datasheet](https://coral.withgoogle.com/docs/dev-board/datasheet/) or flashing process come to [MDT flash](https://coral.withgoogle.com/docs/dev-board/get-started/#flash-the-board).
 
@@ -23,7 +23,7 @@ To get started you only need to follow the next steps:
 2. Plug your HDMI cable to the HDMI port labeled.
 3. Vizualize the Mendel Linux System Interface on your screen to interact with them.
 
-When we finished with the steps above and we see the Mendel interface in our monitor, we can continue with the execution of the helmet detection project.
+When we finished with the steps above and we see the Mendel interface in our monitor, we can continue with the execution of the detection project.
 
 ### Run a model on the Edge TPU
 To run a model on edge TPU, in that case in Coral Dev Board, we initially download the EdgeTPU source repository of Google Coral Source, the project structure is like this:
